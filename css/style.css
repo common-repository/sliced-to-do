@@ -1,0 +1,156 @@
+
+@media screen and ( max-width: 782px ) {
+	.sliced_todo_tabs li {
+		padding: 15px; 
+	}
+}
+
+@media screen and ( min-width: 783px ) {
+	.sliced_todo_tabs li {
+		padding: 3px 5px 5px;
+	}
+}
+
+.sliced_todo_list_container {
+	margin: 0;
+
+}
+
+.sliced_todo_container,
+.sliced_todo_tabs li.selected {
+	border: 1px solid #dfdfdf;
+	background-color: #FDFDFD;
+}
+
+.sliced_todo_container {
+	padding: 13px 0.9em 0;
+}
+
+.sliced_todo_container input {
+	margin-right: 0.3em;
+	margin-bottom: 0em;
+	display: none;
+}
+
+.to_do_bullet {}
+
+.todo_task_controls {
+	visibility: hidden;
+}
+
+.todo_task_title {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0.2em 0.2em 
+}
+
+.sliced_todo_list_container {
+}
+.todo_task_single:hover > .todo_task_controls {
+	visibility: visible;
+}
+
+.todo_input:focus + .todo_task_controls {
+	visibility: visible;
+}
+
+.todo_task_controls:hover {
+	visibility: visible;
+}
+
+
+.todo_task_controls {
+	white-space: nowrap;
+}
+
+.todo_task_controls a {
+	cursor: pointer;
+
+}
+
+
+.sliced_todo_container p {
+	margin-bottom: 0em;
+	margin-top: 0.8em
+}
+
+
+.sliced_todo_container p:first-of-type {
+	margin-top: 0em
+}
+
+
+.sliced_todo_container span {
+	margin-top: 0em
+}
+
+.sliced_todo_tabs {
+	margin-bottom: 0;
+}
+
+.sliced_todo_tabs li {
+	display: inline-block;
+	margin-bottom: -2px;
+	border: 1px solid rgba(0,0,0,0);
+}
+
+.sliced_todo_tabs li.selected {
+	border-bottom: 1px solid #FDFDFD;
+}
+
+.sliced_todo_tab a {
+	text-decoration: none;
+}
+
+.todo_action_save {
+	display: none;
+}
+
+.todo_action_delete {
+	color: #a00;
+}
+
+
+.todo_action_delete:hover {
+	color: red;
+}
+
+.sliced_todo_tab.selected a {
+	color: #32373C;
+}
+
+.task_add_new {
+	display: inline-block;
+    margin: 15px 0px 10px;
+    font-weight: 600;
+}
+
+.task-add input[type="text"],
+.task-add textarea,
+.task-add select {
+	width: 100%;
+    max-width: 260px;
+    vertical-align: baseline;
+    display: block;
+	margin: 0px 0px 1em;
+}
+
+.task_field_label {
+    margin-bottom: 0px;
+}
+
+.no_tasks {
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
